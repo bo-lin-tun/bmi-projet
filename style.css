@@ -1,0 +1,104 @@
+.title {
+  color: #070f2b;
+}
+
+.input {
+  width: 300px;
+  margin-top: 100px;
+  display: inline-block;
+  height: 70px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.contianer {
+  margin: 30px;
+}
+label {
+  font-size: 1.4em;
+  margin-right: 40px;
+  color: green;
+  font-weight: bold;
+}
+.height {
+  margin-right: 90px;
+  color: gray;
+}
+
+.btn {
+  font-size: 2em;
+  margin: 100px 0 0 300px;
+  font-weight: bold;
+}
+
+.answer {
+  font-size: 2em;
+  margin: 100px 0 0 300px;
+  color: green;
+  font-weight: bold;
+}
+
+.inches {
+  margin-left: 20px;
+}
+
+.inchesInput,
+.feetInput {
+  width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  label {
+    font-size: 20px;
+  }
+
+  .inputDiv1,
+  .inputDiv3 {
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+
+  .input {
+    margin-top: 20px;
+    width: 200px;
+    font-size: 20px;
+  }
+  .height {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 1.2em;
+    margin: 30px 0 0 8px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  .answer {
+    font-size: 1.1em;
+    margin: 7px 0 0 8px;
+    color: green;
+    font-weight: bold;
+    margin-left: -80px;
+  }
+
+  .inchesInput,
+  .feetInput {
+    width: 70px;
+    margin-left: -80px;
+  }
+
+  .inputDiv2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+}
